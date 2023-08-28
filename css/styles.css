@@ -164,17 +164,18 @@ a:hover{
     left: 10px;
     bottom:250px;
     }
-    .mountain-img{
-        width: 100%;
-        overflow: hidden;
-    }
+    
     .contact-me{
         width: 50%;
         margin: 0 auto;
     }
-    .mountain-img{
+    /* .mountain-img{
         object-fit: contain;
         width: 100%;
+    } */
+
+    .top-container{
+        overflow: hidden;
     }
   }
   
