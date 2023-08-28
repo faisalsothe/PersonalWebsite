@@ -149,27 +149,10 @@ a:hover{
     padding-bottom: 40px;
   }
 
-@media screen and (max-width: 800px) {
 
-
-    a{
-        margin:10px 10px;
-    }
-
-    .contact-me{
-        width: 50%;
-        margin: 0 auto;
-      }
-
-    .top-container{
-        width: 100%;
-    }
-
-    .middle-container{
-        width: 100%;
-    }
-
-    .bottom-container{
-        width: 100%;
+@media only screen and (max-width: 600px) {
+    body {
+      
     }
   }
+  
