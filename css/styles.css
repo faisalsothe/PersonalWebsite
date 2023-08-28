@@ -150,9 +150,31 @@ a:hover{
   }
 
 
-@media only screen and (max-width: 600px) {
-    body {
-      
+@media only screen and (max-width: 900px) {
+    a{
+        margin: 10px 10px;
+    }
+    .top-cloud{
+    position: absolute;
+    right:20px;
+    top:30px;
+    }
+    .bottom-cloud{
+    position: absolute;
+    left: 20px;
+    bottom:300px;
+    }
+    .mountain-img{
+        width: 100%;
+        overflow: hidden;
+    }
+    .contact-me{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .mountain-img{
+        object-fit: contain;
+        width: 100%;
     }
   }
   
